@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+</head>
+<body>
+<form action="#" method="post">
+    <table>
+        <tr>
+            <td style="text-align: right">First Name:</td>
+            <td style="text-align: left"><input id="FirstName" name="FirstName" type="text" /></td>
+        </tr>
+        <tr>
+            <td style="text-align: right">Last Name:</td>
+            <td style="text-align: left"><input id="LastName" name="LastName" type="text" /></td>
+        </tr>
+        <tr>
+            <td style="text-align: right">Email:</td>
+            <td style="text-align: left"><input id="Email" name="Email" type="text" /></td>
+        </tr>
+        <tr>
+            <td style="text-align: right">Type of License:</td>
+            <td style="text-align: left">
+                <input name="License" value="Business" type="radio" checked="" />Business
+                <input name="License" value="Personal" type="radio" />Personal
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">Reason:</td>
+            <td style="text-align: left">
+                <select id="Reason" name="Reason">
+                    <option selected="selected">Select a Reason</option>
+                    <option>Software Support</option>
+                    <option>Hardware Support</option>
+                    <option>Information Request</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">Additional Information:</td>
+            <td style="text-align: left"><textarea name="AdditionalInfo" id="AdditionalInfo" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td/>
+            <td style="text-align: left"><input name="TOSRead" id="TOSRead" type="checkbox"/>I have read the terms of service.</td>
+        </tr>
+        <tr>
+            <td/>
+            <td style="text-align: center"><input id="SubmitButton" type="submit" value="Send Request"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
