@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3EB6BE32-CC05-4AB1-9CAC-663B226F250E}"
+	ProjectSection(SolutionItems) = preProject
+		Index.html = Index.html
+		skills.html = skills.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{79745911-8F9C-4555-9E6C-73A9701AEF88}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\IntroToWebDevelopment\assets\images\SoftwareGuildLogo.png = ..\..\..\IntroToWebDevelopment\assets\images\SoftwareGuildLogo.png
+		images\SPChris.jpg = images\SPChris.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79745911-8F9C-4555-9E6C-73A9701AEF88} = {3EB6BE32-CC05-4AB1-9CAC-663B226F250E}
+	EndGlobalSection
+EndGlobal
