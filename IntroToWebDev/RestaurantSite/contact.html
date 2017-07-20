@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <style>
+        .content {
+            align-items: center;
+            text-align: center
+        }
+
+        .footer {
+            clear: both;
+            position: absolute;
+            bottom: 0px;
+            width: 100%
+        }
+
+        .header {
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1 style="text-align: center">Chris's Place</h1>
+    <hr />
+    <span><a href="Index.html">Home</a></span>
+    <span style="padding-left: 3em"><a href="menu.html">Menu</a></span>
+    <span style="padding-left: 3em"><a href="contact.html">Contact Us</a></span>
+    <hr />
+</div>
+<div class="content">
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td style="text-align: right">Name:</td>
+                <td style="text-align: left"><input id="Name" name="Name" type="text" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Email:</td>
+                <td style="text-align: left"><input id="Email" name="Email" type="text" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Phone:</td>
+                <td style="text-align: left"><input id="Phone" name="Phone" type="text" /></td>
+            </tr>            
+            <tr>
+                <td style="text-align: right">Reason for Inquiry:</td>
+                <td style="text-align: left">
+                    <select id="Reason" name="Reason">
+                        <option selected="selected">Catering</option>
+                        <option>Private Party</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Additional Information:</td>
+                <td style="text-align: left"><textarea name="AdditionalInfo" id="AdditionalInfo" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Have you been to the restaurant:</td>
+                <td style="text-align: left">
+                    <input name="Visited" value="No" type="radio" checked="" />No
+                    <input name="Visited" value="Yes" type="radio" />Yes
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Best days to contact you:</td>
+                <td style="text-align: left">
+                    <input name="Monday" value="Monday" type="checkbox"/>M
+                    <input name="Tuesday" value="Tuesday" type="checkbox" />T
+                    <input name="Wednesday" value="Wednesday" type="checkbox" />W
+                    <input name="Thursday" value="Thursday" type="checkbox" />Th
+                    <input name="Friday" value="Friday" type="checkbox" />F
+                </td>
+            </tr>
+        </table>
+        <center>
+            <input id="SubmitButton" type="submit" value="Send Request" />
+        </center>
+    </form>
+    <br/>
+</div>
+<div class="footer">
+    <hr />
+    <p style="text-align: center">123 Main St., Anywhere, CA, 92000</p>
+    <p style="text-align: center">858-555-1212</p>
+</div>
+</body>
+</html>
